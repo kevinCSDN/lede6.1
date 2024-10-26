@@ -33,18 +33,18 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #删除feeds自带mosdns、v2ray-geodata
 #rm -rf ./feeds/packages/net/mosdns
 #rm -rf feeds/packages/net/v2ray-geodata
-#rm -rf feeds/luci/themes/luci-theme-argon
-#rm -rf feeds/luci/themes/luci-theme-bootstrap
-#rm -rf feeds/luci/themes/luci-app-argon-config
+rm -rf feeds/luci/themes/luci-theme-argon
+rm -rf feeds/luci/themes/luci-theme-bootstrap
+rm -rf feeds/luci/themes/luci-app-argon-config
 
 #passwall2
 #git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 #git clone -b luci-smartdns-dev --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
-git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git
+#git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git
 #https://github.com/bcseputetto/openwrt-passwall
 #mosdns
 #git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 #git clone --depth=1 https://github.com/fw876/helloworld.git
-#git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-#git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #popd
